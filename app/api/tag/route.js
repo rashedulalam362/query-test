@@ -6,7 +6,7 @@ export async function POST() {
 
     // try {
     //     const prisma = new PrismaClient()
-    //     const post = await prisma.post.create({
+    //     const post = await prisma.tag.create({
     //         data: {
     //             authorId: 2,
     //             parentId: 1245,
@@ -31,7 +31,7 @@ export async function POST() {
 
     // try {
     // const prisma=new PrismaClient()    
-    // const posts= await prisma.post.createMany({
+    // const posts= await prisma.tag.createMany({
     //     data:[{
     //         authorId: 1,
     //             parentId: 1245,
@@ -72,7 +72,7 @@ export async function POST() {
     //  // Read All Data
     // try {
     //     const prisma=new PrismaClient()    
-    //     const post= await prisma.post.findMany({
+    //     const post= await prisma.tag.findMany({
     //         where: { id: 3 },
     //     })
     //     console.log(post);
@@ -87,7 +87,7 @@ export async function POST() {
    //   //update user 
     //  try {
     //     const prisma=new PrismaClient()    
-    //     const post= await prisma.user.update({
+    //     const post= await prisma.tag.update({
     //         where:{id:4},
     //        data:{
     //         authorId: 2,
@@ -110,7 +110,7 @@ export async function POST() {
     //delte single  POST 
     // try {
     //     const prisma=new PrismaClient()    
-    //     const post= await prisma.post.delete({
+    //     const post= await prisma.tag.delete({
     //         where:{
     //          id:2,
     //         }
